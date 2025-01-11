@@ -1,0 +1,15 @@
+[project]
+name = "citeutil-notebook"
+version = "0.1.0"
+description = "Tutorial for citeutil"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cirrocumulus>=1.1.58",
+    "citepro",
+    "ipykernel>=6.29.5",
+    "zarr<3.0",
+]
+
+[tool.uv.sources]
+citepro = { path = "../citepro" }
